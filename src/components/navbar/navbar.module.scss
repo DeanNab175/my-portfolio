@@ -1,0 +1,7 @@
+@use "@/scss/abstracts/" as *;
+
+.navbar {
+  h1 {
+    color: $error;
+  }
+}
