@@ -1,0 +1,38 @@
+/* Colors */
+@forward "colors";
+
+/* Spacing */
+$base-padding: 0.75rem;
+$base-margin: 0.75rem;
+
+/* Borders */
+$base-border-thickness: 1px;
+$base-border-radius: 20px;
+
+/* Box shadow */
+$base-box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+
+/* Font sizes */
+$base-font-size: 1rem;
+$font-size-sm: $base-font-size * 0.75;
+$font-size-lg: $base-font-size * 1.5;
+$font-size-xl: $base-font-size * 2;
+$font-size-xxl: $base-font-size * 3;
+
+/* Breakpoints */
+$breakpoints: (
+  sm: 640px,
+  md: 768px,
+  lg: 1024px,
+  xl: 1280px,
+  xxl: 1536px,
+);
+
+/* Container sizes */
+$container-sizes: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1320px,
+);
