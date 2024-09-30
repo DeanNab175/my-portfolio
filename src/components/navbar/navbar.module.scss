@@ -1,7 +1,8 @@
 @use "@/scss/abstracts/" as *;
 
-.navbar {
-  h1 {
-    color: $error;
-  }
+.navbar__list {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  gap: 1rem;
 }
