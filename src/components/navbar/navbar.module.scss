@@ -3,6 +3,22 @@
 .navbar__list {
   display: flex;
   flex-direction: column;
+  align-items: center;
   list-style: none;
   gap: 1rem;
+  width: 6rem;
+  position: relative;
+  isolation: isolate;
+}
+
+.navbar__indicator {
+  width: 3rem;
+  aspect-ratio: 1 / 1;
+  background-color: crimson;
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  border-radius: 0.75rem;
 }

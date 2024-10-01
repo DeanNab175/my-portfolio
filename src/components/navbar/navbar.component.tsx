@@ -12,10 +12,7 @@ function Navbar() {
               <NavLink nav={nav} />
             </li>
           ))}
-          <div
-            className="navbar__indicator"
-            style={{ left: "0", top: "0" }}
-          ></div>
+          <div className={styles.navbar__indicator} style={{ top: "0" }}></div>
         </ul>
       </nav>
     </header>

@@ -8,7 +8,7 @@ interface NavLinkProps {
 
 function NavLink({ nav }: NavLinkProps) {
   return (
-    <Link href={nav.url}>
+    <Link href={nav.url} className={styles.navbar__link}>
       <span className={styles.navbar__icon}>{nav.icon}</span>
       <span className="navbar__text">{nav.label}</span>
     </Link>
