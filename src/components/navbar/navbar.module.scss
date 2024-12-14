@@ -14,7 +14,7 @@
 .navbar__indicator {
   width: 3rem;
   aspect-ratio: 1 / 1;
-  background-color: crimson;
+  background-color: $primary-color;
   position: absolute;
   z-index: -1;
   left: 0;
